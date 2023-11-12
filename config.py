@@ -7,8 +7,8 @@ class Config:
 class ProductionConfig(Config):
 	pass
 
-class DevelopmentConfig(Config): 
-	DEBUG = True
+class DevelopmentConfig(Config):	
+	DEBUG = True	
 	DEVELOPMENT = True
 	TEMPLATES_AUTO_RELOAD = True
 	ASSETS_DEBUG = True
